@@ -6,13 +6,10 @@
 
 /* banner section start */
 .banner{
-	background-color: rgba(6, 12, 34, 0.8);
+	background-color:#0b1126;
 	z-index:999;
 	position:sticky;
 	top:0;
-}
-.sticky-top{
-	
 }
 .navbar-brand{
 	color:red;
@@ -28,6 +25,7 @@
 .nav-item a{
 	color:#e3d6d6d6 !important;
 	position:relative;
+	text-transform:capitalize;
 }
 .nav-item a::after{
 	content:"";
@@ -42,9 +40,13 @@
 	background-color:red;
 	transition:0.5s all linear;
 }
+.nav-item a:hover{
+	color:white !important;
+}
 .nav-item a:hover::after{
 	width:100%;
 }
+
 
 /* banner section end */
 /* home section start */
@@ -75,6 +77,12 @@
 .home-title{
 	font-size:60px !important;
 }
+.adjust{
+	color:#ebebeb !important;
+	font-size:1.7rem !important;
+	font-weight:700 !important:
+}
+	
 .play-icon{
 	width:50px;
 	height:50px;
@@ -97,6 +105,12 @@
 		box-shadow:0px 0px 0px 10px #ff00004f,0px 0px 0px 10px #ff00004f;
 	}
 } 
+.home-btn{
+	width:18%;
+}
+.home-btn:hover{
+	background-color:red !important;
+}
 	/* home section end */
 	/* about section start */
 			
